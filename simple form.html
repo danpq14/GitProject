@@ -5,7 +5,7 @@
     <title>simpleform</title>
 </head>
 <body>
-<form action="simpleform.html" method="post">
+<form action="simpleform.html" method="post" class=".wufoo">
     <h1>Order Form</h1>
     <p><strong><i>Bạn muốn mua gì</i></strong></p>
     <select>
@@ -18,15 +18,23 @@
     <input type="radio" name="số lượng 2"> 2 chiếc
     <input  type="radio" name="số lượng 3"> 3 chiếc
     <br>
-    <p>Tên của bạn</p>
-    <input type="text" name ="tên khách hàng">
+    <p>Tên của bạn<span style="color: red">*</span> </p>
+    <input type="text" name ="tên khách hàng" placeholder="tên của bạn">
     <br>
     <p>Email</p>
-    <input type="text" name="email khách hàng">
+    <input type="text" name="email khách hàng" placeholder="email của bạn">
     <br>
     <p>Số điện thoại</p>
-    <input type="number" name="số điện thoại khách hàng">
-    <input type="submit" name="submit">
+    <input type="number" name="số điện thoại khách hàng" placeholder="số điện thoại của bạn">
+    <br>
+    <br>
+    <input type="button" name="submit" value="submit">
+    <style>
+        .wufoo {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+
 
 
 </form>
