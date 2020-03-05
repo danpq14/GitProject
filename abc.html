@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khảo sát khách hàng</title>
+</head>
+<body>
+<h1> Market Research Survey</h1>
+<p> Please take a few minute to complete this satisfaction survey</p>
+<hr>
+
+<form action="/action_page.php">
+    <p><b>What is your age range ?</b></p>
+    <select name="độ tuổi" id="age">
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-50">35-50</option>
+        <option value="50+">50+</option>
+    </select>
+    <p><b> What is your really income range ?</b></p>
+    <select name="income" id="">
+        <option value="0-25,000$">0-25,000$</option>
+        <option value="25,000$-50,000$">25,000$-50,000$</option>
+        <option value="50,000$-100,000$">50,000$-100,000$</option>
+        <option value="100,000$+">100,000$+</option>
+    </select>
+    <p><b>Gender</b></p>
+    <input type="radio" name="Gender" value="male">Male <br>
+    <input type="radio"name="Gender" value="female">Female <br>
+    <input type="radio" name="gender" value="Nonbiary">Nonbiary <br>
+    <input type="radio"name="gender" value="Other">Other <br>
+    <input type="textarea"name="gender"placeholder="Maximum 100 character"><br>
+
+    <p><b>Which of the following products have your purchased in the last 2 months? Please check all that apply.</b></p>
+    <input type="checkbox" name="product" value="product1"> Product 1 <br>
+    <input type="checkbox" name="product" value="product2"> Product 2 <br>
+    <input type="checkbox" name="product" value="product3"> Product 3 <br>
+    <p><b>How often would you use our new product ?</b></p>
+    <input type="radio"name="frequency of use"value="daily">Daily <br>
+    <input type="radio"name="frequency of use"value="weekly">Weekly <br>
+    <input type="radio"name="frequency of use"value="Monthly">Montly <br>
+    <p><b>What would you pay for new product?</b></p>
+    <p>$ <input type="text"name="dollars"placeholder="dollar" style="width: 100px">. <input type="text" name="cent"placeholder="cent" style="width: 20px"></p>
+    <p><b>What features would you see in our new product ?</b></p>
+    <textarea cols="100" rows="8"></textarea>
+    <br>
+    <p>Please rate your level a agreement with the following statements.</p>
+    <table border="1" bordercolor="black" align="left">
+        <tr style="background-color: gainsboro">
+            <th></th>
+            <th width="80px">Strongly Disagree</th>
+            <th width="80px">Disagree</th>
+            <th width="80px"> Agree</th>
+            <th width="80px">Strongly Agree</th>
+        </tr>
+        <tr style="height: 50px";>
+            <td>Our product are priced fairly</td>
+            <td align="center"><input type="radio"name="Mức độ đồng ý về giá"value="rất ko đồng ý">1</td>
+            <td align="center"><input type="radio"name="Mức độ đồng ý về giá"value="ko đồng ý">2</td>
+            <td align="center"><input type="radio"name="Mức độ đồng ý về giá"value="đồng ý">3</td>
+            <td align="center"><input type="radio"name="Mức độ đồng ý về giá"value="hoàn toàn đồng ý">4</td>
+        </tr>
+        <tr style="background-color: gainsboro; height: 50px">
+            <td>Our product are high quality</td>
+            <td align="center"><input type="radio"name="Mức độ đồng ý về chất lượng"value="rất ko đồng ý">1</td>
+            <td align="center"><input type="radio"name="Mức độ đồng ý về chất lượng"value="ko đồng ý">2</td>
+            <td align="center"><input type="radio"name="Mức độ đồng ý về chất lượng"value="đồng ý">3</td>
+            <td align="center"><input type="radio"name="Mức độ đồng ý về chất lượng"value="hoàn toàn đồng ý">4</td>
+        </tr>
+        <tr style="height: 50px">
+            <td>You would recommend our product to a friend or coworker</td>
+            <td align="center"><input type="radio"name="bạn sẽ giới thiệu sản phẩm với người khác chứ"value="rất ko đồng ý">1</td>
+            <td align="center"><input type="radio"name="bạn sẽ giới thiệu sản phẩm với người khác chứ"value="ko đồng ý">2</td>
+            <td align="center"><input type="radio"name="bạn sẽ giới thiệu sản phẩm với người khác chứ"value="đồng ý">3</td>
+            <td align="center"><input type="radio"name="bạn sẽ giới thiệu sản phẩm với người khác chứ́"value="hoàn toàn đồng ý">4</td>
+        </tr>
+    </table>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <input type="submit" value="submit" align="left">
+</form>
+
+</body>
+</html>
