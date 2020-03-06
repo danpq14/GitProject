@@ -28,8 +28,9 @@
     <input type="radio" name="Gender" value="male">Male <br>
     <input type="radio"name="Gender" value="female">Female <br>
     <input type="radio" name="gender" value="Nonbiary">Nonbiary <br>
-    <input type="radio"name="gender" value="Other">Other <br>
-    <input type="textarea"name="gender"placeholder="Maximum 100 character"><br>
+    <input type="radio"name="gender" value="Other"><label for="other">Other</label> <br>
+    <input type="textarea"name="gender"placeholder="Maximum 100 character" id="other"><br>
+
 
     <p><b>Which of the following products have your purchased in the last 2 months? Please check all that apply.</b></p>
     <input type="checkbox" name="product" value="product1"> Product 1 <br>
@@ -44,8 +45,8 @@
     <p><b>What features would you see in our new product ?</b></p>
     <textarea cols="100" rows="8"></textarea>
     <br>
-    <p>Please rate your level a agreement with the following statements.</p>
-    <table border="1" bordercolor="black" align="left">
+    <p>Please rate your level a agreement with the following statements.</p><br>
+    <table border="1" bordercolor="black" cellspacing="0" >
         <tr style="background-color: gainsboro">
             <th></th>
             <th width="80px">Strongly Disagree</th>
@@ -76,8 +77,9 @@
         </tr>
 
     </table>
-    <br/>
-
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
 
 </body>
 </html>
